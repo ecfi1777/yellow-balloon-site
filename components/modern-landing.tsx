@@ -177,8 +177,7 @@ export default function YellowBalloonLanding() {
               !
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-prose leading-relaxed">
-              Friendly stylists, quick visits, and a space designed for little ones. From first haircuts to picture‑day
-              trims, we make it fun and easy.
+              Serving Gaithersburg, Darnestown, Potomac, Germantown & surrounding Montgomery County for over 20 years.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Button
@@ -186,9 +185,9 @@ export default function YellowBalloonLanding() {
                 size="lg"
                 className="bg-slate-800 text-white hover:bg-slate-900 border-0 font-bold text-lg px-8"
               >
-                <a href="#contact">
+                <a href="tel:3015696756">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call to Book
+                  Call to Book Appointment
                 </a>
               </Button>
               <Button variant="secondary" asChild size="lg" className="font-semibold text-lg px-8">
@@ -526,8 +525,9 @@ export default function YellowBalloonLanding() {
                 <Input placeholder="Parent name" className="rounded-xl" />
                 <Input placeholder="Phone or email" className="rounded-xl" />
                 <Textarea placeholder="Tell us about the haircut (age, style, best time)" className="rounded-xl" />
-                <Button className="w-full bg-slate-800 text-white hover:bg-slate-900 border-0 font-bold text-lg py-3">
-                  Send Message
+                <Button className="w-full bg-slate-800 text-white hover:bg-slate-900 border-0 font-bold text-lg py-3 flex items-center justify-center">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Call to Book Appointment
                 </Button>
               </form>
             </CardContent>

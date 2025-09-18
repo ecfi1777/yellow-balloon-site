@@ -119,7 +119,7 @@ export default function GlamourPartiesPage() {
               </a>
             </Button>
             <Button variant="secondary" asChild size="lg" className="font-semibold text-lg px-8">
-              <a href="/#contact">Book Party</a>
+              <a href="tel:3015696756">Call to Book Appointment</a>
             </Button>
           </div>
         </div>
@@ -292,7 +292,7 @@ export default function GlamourPartiesPage() {
               </a>
             </Button>
             <Button variant="secondary" asChild size="lg" className="font-semibold text-lg px-8">
-              <a href="/#contact">Book Party Online</a>
+              <a href="tel:3015696756">Call to Book Appointment</a>
             </Button>
           </div>
         </div>

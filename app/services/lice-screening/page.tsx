@@ -123,7 +123,7 @@ export default function LiceScreeningPage() {
                 </a>
               </Button>
               <Button variant="secondary" asChild size="lg" className="font-semibold text-lg px-8">
-                <a href="/#contact">Schedule Screening</a>
+                <a href="tel:3015696756">Call to Book Appointment</a>
               </Button>
             </div>
           </div>
@@ -497,7 +497,7 @@ export default function LiceScreeningPage() {
               </a>
             </Button>
             <Button variant="secondary" asChild size="lg" className="font-semibold text-lg px-8">
-              <a href="/#contact">Schedule Appointment</a>
+              <a href="tel:3015696756">Call to Book Appointment</a>
             </Button>
           </div>
         </div>

@@ -101,7 +101,7 @@ export default function HaircutsPage() {
                 </a>
               </Button>
               <Button variant="secondary" asChild size="lg" className="font-semibold text-lg px-8">
-                <a href="/#contact">Book Appointment</a>
+                <a href="tel:3015696756">Call to Book Appointment</a>
               </Button>
             </div>
           </div>
@@ -290,7 +290,7 @@ export default function HaircutsPage() {
               </a>
             </Button>
             <Button variant="secondary" asChild size="lg" className="font-semibold text-lg px-8">
-              <a href="/#contact">Send Message</a>
+              <a href="tel:3015696756">Call to Book Appointment</a>
             </Button>
           </div>
         </div>

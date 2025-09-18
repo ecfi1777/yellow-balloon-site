@@ -122,10 +122,10 @@ export default function ConditionalHeader() {
               Call Now
             </a>
             <Link
-              href="/#contact"
+              href="tel:3015696756"
               className="inline-flex items-center px-4 py-2 bg-yellow-100 text-yellow-700 font-semibold rounded-full hover:bg-yellow-200 transition-all duration-200 shadow-lg hover:shadow-xl border border-yellow-200"
             >
-              Book Now
+              Call to Book Appointment
             </Link>
           </div>
         </div>
