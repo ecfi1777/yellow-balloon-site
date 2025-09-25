@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 import { useState, useRef } from "react"
+import Image from "next/image"
 
 export default function ConditionalHeader() {
   const pathname = usePathname()
@@ -46,8 +47,8 @@ export default function ConditionalHeader() {
             onClick={handleLogoClick}
             className="flex items-center space-x-2 cursor-pointer hover:opacity-80 transition-opacity"
           >
-            <div className="w-8 h-8 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full flex items-center justify-center">
-              <span className="text-yellow-900 font-bold text-sm">🎈</span>
+            <div className="w-10 h-10 relative">
+              <Image src="/logo.jpg" alt="Yellow Balloon Kids Hair Salon Logo" fill className="object-contain" />
             </div>
             <span className="font-black text-xl bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">
               The Yellow Balloon
